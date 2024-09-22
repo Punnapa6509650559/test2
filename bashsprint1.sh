@@ -1,14 +1,17 @@
 #!/bin/bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+node -e "console.log('Running Node.js ' + process.version)"
 
 
+  echo "Installing yarn..."
+  
+  yum install yarn
+  rm yarn.lock
 
-curl -sL https://dl.yarnpkg.com/install.sh | bash
+#cd testsprint1/
 
+yarn install
 
-cd /path/to/your/project
-
-
-yarn install -g
-
-yarn run start
-
+yarn start
