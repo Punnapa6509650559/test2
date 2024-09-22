@@ -8,7 +8,7 @@ node -e "console.log('Running Node.js ' + process.version)"
 
   echo "Installing yarn..."
   
-  yum install yarn
+  sudo yum install yarn
   rm yarn.lock
 
 #cd testsprint1/
