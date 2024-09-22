@@ -11,7 +11,6 @@ node -e "console.log('Running Node.js ' + process.version)"
   npm install yarn -g
   rm yarn.lock
 
-#cd testsprint1/
 
 yarn install
 
