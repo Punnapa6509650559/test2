@@ -6,7 +6,7 @@ source ~/.bashrc
 nvm install --lts
 node -e "console.log('Running Node.js ' + process.version)"
 
-
+sudo npm install
   echo "Installing yarn..."
  # curl -sL https://dl.yarnpkg.com/rpm/yarn.repo -o /etc/yum.repos.d/yarn.repo
  sudo npm install -g  yarn
