@@ -7,7 +7,7 @@ node -e "console.log('Running Node.js ' + process.version)"
 
 
   echo "Installing yarn..."
-  
+  curl -sL https://dl.yarnpkg.com/rpm/yarn.repo -o /etc/yum.repos.d/yarn.repo
   sudo yum install yarn
   rm yarn.lock
 
