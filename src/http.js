@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-var url = "3.82.129.252";
+var url = "54.197.40.131";
 
 export default axios.create({
 
